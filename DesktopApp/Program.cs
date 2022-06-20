@@ -134,6 +134,7 @@ namespace WR5
             string strResult = "";
             string strNewDeviceSerial = strDeviceSerial.Substring(strDeviceSerial.IndexOf("-") + 1);
 
+            Console.Write("");
             try
             {
                 using (var httpClient = new HttpClient())
